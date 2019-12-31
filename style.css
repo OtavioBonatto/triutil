@@ -19,6 +19,11 @@ a {
     color: black;
 }
 
+@font-face {
+    font-family: "Brush Script MT", cursive;
+    src: URL('font.ttf') format('truetype');
+  }
+
 .logo {
     font-family: "Brush Script MT", cursive;
     font-size: 32px;
@@ -26,7 +31,7 @@ a {
     font-variant: normal;
     font-weight: 700;
     line-height: 26.4px;
-}
+}          
 
 .titulo-principal {
     text-align: center;
