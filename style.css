@@ -1,0 +1,99 @@
+.navbar-inverse {
+    background-color: #efbf3b; 
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: #efbf3b;    
+}
+
+.navbar-inverse .navbar-brand {
+    color: black;
+    font-size: 35px;
+}
+
+a {
+    font-size: 30px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: black;
+}
+
+.logo {
+    font-family: "Brush Script MT", cursive;
+    font-size: 32px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 128px;
+    margin-bottom: 3rem;
+}
+
+.slogan {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.container {
+    margin-top: 15rem;
+}
+
+.img-logo {
+    margin: 0 auto;
+}
+
+.img-ferradura {
+    margin: 0 auto;
+    width: 625px;
+    margin-bottom: 1rem;
+}
+
+.descricao {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5rem;
+}
+
+footer {
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+/* Página bares  */
+.img-bares {
+    width: 250px;
+} 
+
+.titulo-produto {
+    text-align: center;
+}
+
+/* Página Clientes */
+.grupo-clientes {
+    margin-bottom: 25%;
+}
+
+.imagem-cliente {
+    width: 240px;
+    height: 160px;
+}
+
+/* Página videos */
+.video-criativo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 6rem;
+}
+
+/* sobre */
+.texto-sobre {
+    font-size: 30px;
+}
