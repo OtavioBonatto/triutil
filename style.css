@@ -8,11 +8,12 @@
 
 .navbar-inverse .navbar-brand {
     color: black;
-    font-size: 35px;
+    font-size: 50px;
 }
 
 a {
     font-size: 30px;
+    margin-left: 1rem;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -75,7 +76,16 @@ footer {
 /* Página bares  */
 .img-bares {
     width: 250px;
-} 
+}
+
+.imagem-animais-box {
+    height: 230px;
+    width: 700px;
+}
+
+.imagem-animais {
+    width: 700px;
+}
 
 .titulo-produto {
     text-align: center;
