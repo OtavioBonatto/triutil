@@ -13,7 +13,6 @@
 
 a {
     font-size: 30px;
-    margin-left: 1rem;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -38,6 +37,7 @@ a {
     text-align: center;
     font-size: 128px;
     margin-bottom: 3rem;
+    margin-top: 22rem;
 }
 
 .slogan {
@@ -59,6 +59,10 @@ a {
     margin-bottom: 1rem;
 }
 
+.primeira-imagem {
+    margin-top: 20rem;
+}
+
 .descricao {
     text-align: center;
     font-weight: bold;
@@ -78,15 +82,6 @@ footer {
     width: 250px;
 }
 
-.imagem-animais-box {
-    height: 230px;
-    width: 700px;
-}
-
-.imagem-animais {
-    width: 700px;
-}
-
 .titulo-produto {
     text-align: center;
 }
@@ -103,6 +98,7 @@ footer {
 
 /* Página videos */
 .video-criativo {
+    width: 320px;
     display: block;
     margin: 0 auto;
     margin-top: 6rem;
@@ -111,4 +107,57 @@ footer {
 /* sobre */
 .texto-sobre {
     font-size: 30px;
+}
+
+.joao-trabalhando {
+    margin-top: 35rem;
+}
+
+/* margin */
+.video {
+    margin-top: 34rem;
+}
+
+@media (min-width: 1366px) {
+    body {
+        padding-top: 0px;
+    }
+
+    a {
+        font-size: 30px;
+        margin-left: 1rem;
+    }
+
+    .titulo-principal {
+        margin-top: 0;
+    }
+
+    .primeira-imagem {
+        margin-top: 0;
+    }
+
+    .joao-trabalhando {
+        margin-top: 0;
+    }
+
+    .video {
+        margin-top: 0;
+    }
+
+    .imagem-animais-box {
+        height: 230px;
+        width: 700px;
+    }
+    
+    .imagem-animais {
+        width: 700px;
+    }
+
+    .video-criativo {
+        width: 640px;
+        height: 480px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 6rem;
+    }
 }
