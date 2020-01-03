@@ -15,6 +15,10 @@ a {
     font-size: 30px;
 }
 
+#paddings {
+    padding: 0%;
+}
+
 .navbar-inverse .navbar-nav>li>a {
     color: black;
 }
@@ -46,7 +50,7 @@ a {
 }
 
 .container {
-    margin-top: 15rem;
+    margin-top: 6rem;
 }
 
 .img-logo {
@@ -110,15 +114,15 @@ footer {
 }
 
 .joao-trabalhando {
-    margin-top: 35rem;
+    margin-top: 25rem;
 }
 
 /* margin */
 .video {
-    margin-top: 34rem;
+    margin-top: 24rem;
 }
 
-@media (min-width: 1366px) {
+@media (min-width: 768px) {
     body {
         padding-top: 0px;
     }
@@ -126,6 +130,14 @@ footer {
     a {
         font-size: 30px;
         margin-left: 1rem;
+    }
+
+    .container {
+        margin-top: 15rem;
+    }
+
+    #paddings {
+        padding: 15px 15px;
     }
 
     .titulo-principal {
