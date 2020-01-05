@@ -33,11 +33,11 @@ a {
   @font-face {font-family: "Brush Script MT"; src: url("//db.onlinewebfonts.com/t/7655d129d0addb2f08a5c1dc994aaa4b.eot"); src: url("//db.onlinewebfonts.com/t/7655d129d0addb2f08a5c1dc994aaa4b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7655d129d0addb2f08a5c1dc994aaa4b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7655d129d0addb2f08a5c1dc994aaa4b.woff") format("woff"), url("//db.onlinewebfonts.com/t/7655d129d0addb2f08a5c1dc994aaa4b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7655d129d0addb2f08a5c1dc994aaa4b.svg#Brush Script MT") format("svg"); }
 
 .logo {
-    font-family: "Brush Script MT", cursive;
+    font-family: "Brush Script MT";
     font-size: 32px;
     font-style: normal;
     font-variant: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 26.4px;
 }          
 
