@@ -1,3 +1,5 @@
+@import url(//db.onlinewebfonts.com/c/7655d129d0addb2f08a5c1dc994aaa4b?family=Brush+Script+MT);
+
 .navbar-inverse {
     background-color: #efbf3b; 
 }
@@ -23,10 +25,12 @@ a {
     color: black;
 }
 
-@font-face {
+/* @font-face {
     font-family: "Brush Script MT", cursive;
-    src: URL('font.ttf') format('truetype');
-  }
+    src: URL('BRUSHSCI.TTF') format('truetype');
+  } */
+
+  @font-face {font-family: "Brush Script MT"; src: url("//db.onlinewebfonts.com/t/7655d129d0addb2f08a5c1dc994aaa4b.eot"); src: url("//db.onlinewebfonts.com/t/7655d129d0addb2f08a5c1dc994aaa4b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7655d129d0addb2f08a5c1dc994aaa4b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7655d129d0addb2f08a5c1dc994aaa4b.woff") format("woff"), url("//db.onlinewebfonts.com/t/7655d129d0addb2f08a5c1dc994aaa4b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7655d129d0addb2f08a5c1dc994aaa4b.svg#Brush Script MT") format("svg"); }
 
 .logo {
     font-family: "Brush Script MT", cursive;
