@@ -26,23 +26,64 @@
         </div>
       </nav>
 
-      <!-- <video width="640" height="480" class="video-criativo" controls>
-        <source src="https://www.youtube.com/embed/V5AhfV2jBG0&html5=True" type="video/webm">
-          Seu navegador não suporta videos.
-      </video> -->
-      <div class="video"> 
-        <iframe width="640" height="480" src="https://www.youtube.com/embed/V5AhfV2jBG0" class="video-criativo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       
+      <div class="container">
+
+        <div class="grupo-clientes">
+          <h1 class="slogan">Cliente: Vale 4</h1>
+          <div class="img-box">
+              <img id="myImg" src="imgs/clientes/vale 4/vale4.png" class="col-md-3" alt="">
+            </div>
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <span class="close">&times;</span>
+                  <img class="modal-content" id="img01">
+                  <div id="caption"></div>
+                </div>
+            <ul class="thumb">
+              <li> <a href="imgs/clientes/vale 4/vale4.png"><img src="imgs/clientes/vale 4/vale4.png" target="img-box" class="col-md-6" alt=""></a> </li>  
+              <li> <a href="imgs/clientes/vale 4/vale42.png"><img src="imgs/clientes/vale 4/vale42.png" target="img-box" class="col-md-6" alt=""></a> </li>  
+            </ul>    
+          </div>
+        </div>
+      </div>
+        </div>
+
       </div>
 
-      <div class="video"> 
-        <iframe width="640" height="480" src="https://www.youtube.com/embed/K7QJ29NAR7Q" class="video-criativo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       
-      </div>
 
-      <div class="video"> 
-        <iframe width="640" height="480" src="https://www.youtube.com/embed/bXlrUp-EHUU" class="video-criativo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       
-      </div>
 
-      
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+          $('.thumb a').click(function(e) {
+            e.preventDefault();
+            $('.img-box img').attr("src", $(this).attr("href"));
+          })
+        });
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}  
+    </script>
+
 
 </body>
 
