@@ -19,7 +19,13 @@
             <li id="btn-menor"><a id="paddings" class="btn btn-lg btn-default" href="/index.html">Início</a</li>
               <li id="btn-menor"><a id="paddings" class="btn btn-lg btn-default" href="clientes.html">Clientes</a></li>
               <li id="btn-menor"><a id="paddings" class="btn btn-lg btn-default" href="videos.html">Videos</a></li> 
-              <li><a id="paddings" class="btn btn-lg btn-default" href="produtos-bares.html">Produtos para bares</a></li>
+              <li><a id="paddings" class="btn btn-lg btn-default button-drop dropdown-toggle" type="button" data-toggle="dropdown">Produtos para Bares <span class="caret"></span></button></a>            
+                <ul class="dropdown-menu">
+                  <li><a href="porta-vinhos.html">Porta Vinhos</a></li>
+                  <li><a href="tabuas.html">Tábuas</a></li>
+                  <li><a href="utilitarios-de-mesa.html">Utilitários de Mesa</a></li>
+                </ul>
+              </li>
               <li><a id="paddings" class="btn btn-lg btn-default" href="brindes-presentes.html">Brindes e presentes</a></li>
               <li><a id="paddings" class="btn btn-lg btn-default" href="sobre.html">A Nossa história</a></li>
           </ul>
@@ -30,64 +36,141 @@
 
         <div class="grupo-clientes primeira-imagem">
           <h1 class="slogan">Cliente: Las Lenhas</h1>
-          <a href="las_lenhas.html"><img src="imgs/clientes/las lenhas/laslenhas1.jpg" class="imagem-cliente img-responsive center-block" alt=""></a> 
+          <div class="img-box">
+            <img id="myImg" src="imgs/clientes/las lenhas/laslenhas1.jpg" data-zoom="imgs/clientes/las lenhas/laslenhas1.jpg" class="col-md-3">
+          </div>
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+              </div>
+          <ul class="thumb">
+            <li> <a href="imgs/clientes/las lenhas/laslenhas1.jpg"><img src="imgs/clientes/las lenhas/laslenhas1.jpg" target="img-box" class="col-md-3 col-xs-3 col-sm-3" alt=""></a> </li>  
+            <li> <a href="imgs/clientes/las lenhas/laslenhas2.jpg"><img src="imgs/clientes/las lenhas/laslenhas2.jpg" target="img-box" class="col-md-3 col-xs-3 col-sm-3" alt=""></a> </li>  
+            <li> <a href="imgs/clientes/las lenhas/laslenhas3.jpg"><img src="imgs/clientes/las lenhas/laslenhas3.jpg" target="img-box" class="col-md-3 col-xs-3 col-sm-3" alt=""></a> </li>  
+            <li> <a href="imgs/clientes/las lenhas/laslenhas4.jpg"><img src="imgs/clientes/las lenhas/laslenhas4.jpg" target="img-box" class="col-md-3 col-xs-3 col-sm-3" alt=""></a> </li>  
+          </ul>    
         </div>
 
         <div class="grupo-clientes">
           <h1 class="slogan">Cliente: Entrevero do Gaúcho</h1>
-          <a href="entrevero.html"><img src="imgs/clientes/entrevero do gaucho/entrevero-do-gaucho.jpg" class="imagem-cliente img-responsive center-block" alt=""></a> 
-          <!-- <img src="imgs/clientes/entrevero do gaucho/entrevero-do-gaucho2.png" class="col-md-3" alt="">
-          <img src="imgs/clientes/entrevero do gaucho/entrevero-do-gaucho3.png" class="col-md-3" alt="">
-          <img src="imgs/clientes/entrevero do gaucho/entrevero-do-gaucho4.png" class="col-md-3" alt=""> -->
-        </div>
-
-        <div class="grupo-clientes">
-          <h1 class="slogan">Cliente: Nação verde</h1>
-          <a href="nacaover.html"><img src="imgs/clientes/nação verde/nacao-verde.png" class="imagem-cliente img-responsive center-block" alt=""></a> 
-          <!-- <img src="imgs/clientes/nação verde/nacao-verde2.png" class="col-md-4 imagem-cliente" alt="">
-          <img src="imgs/clientes/nação verde/nacao-verde3.png" class="col-md-4 imagem-cliente" alt=""> -->
+          <div class="img-box">
+              <img id="myImg" src="imgs/clientes/entrevero do gaucho/entrevero-do-gaucho.jpg" data-zoom="imgs/clientes/entrevero do gaucho/entrevero-do-gaucho.png" class="col-md-3">
+            </div>
+                          <!-- The Modal -->
+                          <div id="myModal" class="modal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img01">
+                            <div id="caption"></div>
+                          </div>
+            <ul class="thumb">
+              <li> <a href="imgs/clientes/entrevero do gaucho/entrevero-do-gaucho.jpg"><img src="imgs/clientes/entrevero do gaucho/entrevero-do-gaucho.jpg" target="img-box" class="col-md-6 col-xs-6 col-sm-6" alt=""></a> </li>  
+              <li> <a href="imgs/clientes/entrevero do gaucho/entrevero-do-gaucho2.jpg"><img src="imgs/clientes/entrevero do gaucho/entrevero-do-gaucho2.jpg" target="img-box" class="col-md-6 col-xs-6 col-sm-6" alt=""></a> </li> 
+            </ul> 
         </div>
 
         <div class="grupo-clientes">
           <h1 class="slogan">Cliente: Parrilla do Mercado Público de Santa Maria</h1>
-          <a href="parrila.html"><img src="imgs/clientes/parrila mercado publico de santa maria/parrila.png" class="imagem-cliente img-responsive center-block" alt=""></a> 
-          <!-- <img src="imgs/clientes/parrila mercado publico de santa maria/parrila3.png" class="col-md-3" alt="">
-          <img src="imgs/clientes/parrila mercado publico de santa maria/parrila4.png" class="col-md-3" alt="">
-          <img src="imgs/clientes/parrila mercado publico de santa maria/parrila5.png" class="col-md-3" alt=""> -->
+          <div class="img-box">
+              <img id="myImg" src="imgs/clientes/parrila mercado publico de santa maria/parrila.jpg" data-zoom="imgs/clientes/parrila mercado publico de santa maria/parrila.png" class="col-md-3">
+            </div>
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <span class="close">&times;</span>
+                  <img class="modal-content" id="img01">
+                  <div id="caption"></div>
+                </div>
+            <ul class="thumb">
+              <li> <a href="imgs/clientes/parrila mercado publico de santa maria/parrila.jpg"><img src="imgs/clientes/parrila mercado publico de santa maria/parrila.jpg" target="img-box" class="col-md-4" alt=""></a> </li>  
+              <li> <a href="imgs/clientes/parrila mercado publico de santa maria/parrila2.jpg"><img src="imgs/clientes/parrila mercado publico de santa maria/parrila2.jpg" target="img-box" class="col-md-4" alt=""></a> </li>  
+              <li> <a href="imgs/clientes/parrila mercado publico de santa maria/parrila3.jpg"><img src="imgs/clientes/parrila mercado publico de santa maria/parrila3.jpg" target="img-box" class="col-md-4" alt=""></a> </li>   
+            </ul> 
         </div>
 
         <div class="grupo-clientes">
-          <h1 class="slogan">Cliente: Vale 4</h1>
-          <a href="vale4.html"><img src="imgs/clientes/vale 4/vale4.jpg" class="imagem-cliente img-responsive center-block" alt=""></a> 
-          <!-- <img src="imgs/clientes/vale 4/vale42.png" class="col-md-6 imagem-cliente" alt=""> -->
-        </div>
-
-        <div class="grupo-clientes">
-          <h1 class="slogan">Cliente: Estância do Minuano-Brum</h1>
-          <a href="estancia.html"><img src="imgs/clientes/Estância do Minuano-Restaurante Brum/brum.png" class="imagem-cliente img-responsive center-block" alt=""></a> 
-          <!-- <img src="imgs/clientes/Estância do Minuano-Restaurante Brum/brum2.png" class="col-md-4 imagem-cliente" alt="">
-          <img src="imgs/clientes/Estância do Minuano-Restaurante Brum/brum3.png" class="col-md-4 imagem-cliente" alt=""> -->
-        </div>
-
-        <div class="grupo-clientes">
-          <h1 class="slogan">Cliente: Sabores</h1>
-          <a href="sabores.html"><img src="imgs/clientes/sabores/sabores.JPG" class="imagem-cliente img-responsive center-block" alt=""></a> 
-          <!-- <img src="imgs/clientes/sabores/sabores2.JPG" class="img-responsive col-md-2" alt="">
-          <img src="imgs/clientes/sabores/sabores3.JPG" class="img-responsive col-md-2" alt="">
-          <img src="imgs/clientes/sabores/sabores4.JPG" class="img-responsive col-md-2" alt="">
-          <img src="imgs/clientes/sabores/sabores5.JPG" class="img-responsive col-md-2" alt=""> -->
-        </div>
-
-        <div class="grupo-clientes">
-          <h1 class="slogan">Cliente: Tanashi</h1>
-          <a href="tanashi.html"><img src="imgs/clientes/tanashi/barco2.png" class="imagem-cliente img-responsive center-block" alt=""></a> 
-          <!-- <img src="imgs/clientes/tanashi/barco.png" class="col-md-3" alt="">
-          <img src="imgs/clientes/tanashi/ponte.png" class="col-md-3" alt="">
-          <img src="imgs/clientes/tanashi/ponte2.png" class="col-md-3" alt=""> -->
+            <h1 class="slogan">Cliente: Vale 4</h1>
+            <div class="img-box">
+                <img id="myImg" src="imgs/clientes/vale 4/vale4.jpg" data-zoom="imgs/clientes/vale 4/vale4.jpg" class="col-md-3">
+            </div>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+              <span class="close">&times;</span>
+              <img class="modal-content" id="img01">
+              <div id="caption"></div>
+            </div>
+            <ul class="thumb">
+              <li> <a href="imgs/clientes/vale 4/vale4.jpg"><img src="imgs/clientes/vale 4/vale4.jpg" target="img-box" class="col-md-6 col-xs-6 col-sm-6" alt=""></a> </li>  
+              <li> <a href="imgs/clientes/vale 4/vale42.jpg"><img src="imgs/clientes/vale 4/vale42.jpg" target="img-box" class="col-md-6 col-xs-6 col-sm-6" alt=""></a> </li>  
+            </ul>    
         </div>
 
 
       </div>
+
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="Drift.min.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+      
+      <script type="text/javascript">
+          $(document).ready(function() {
+            $('.thumb a').click(function(e) {
+              e.preventDefault();
+              $('.img-box img').attr("src", $(this).attr("href"));
+              $('.img-box img').attr("data-zoom", $(this).attr("href"));
+            })
+          });   
+
+
+          // Get the modal
+          var modal = document.getElementById("myModal");
+
+          // Get the image and insert it inside the modal - use its "alt" text as a caption
+          var img = document.getElementById("myImg");
+          var modalImg = document.getElementById("img01");
+          var captionText = document.getElementById("caption");
+          img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+          }          
+
+          // Get the <span> element that closes the modal
+          var span = document.getElementsByClassName("close")[0];
+
+          // When the user clicks on <span> (x), close the modal
+          span.onclick = function() { 
+            modal.style.display = "none";
+          } 
+
+
+        function retornaLink() {
+          var paia = img;
+          return paia;
+        }
+
+        var boy = retornaLink();
+        console.log(boy);
+        new Drift(boy, { 	sourceAttribute: 'data-zoom',
+          // How much to magnify the trigger by in the ZoomPane.
+          // (e.g., `zoomFactor: 3` will result in a 900 px wide ZoomPane image
+          // if the trigger is displayed at 300 px wide)
+          zoomFactor: 1.5,
+        }); 
+
+         $("img").click(function(e) {
+          var boy = retornaLink();
+          console.log(boy);
+          new Drift(boy, { 	sourceAttribute: 'data-zoom',
+            // How much to magnify the trigger by in the ZoomPane.
+            // (e.g., `zoomFactor: 3` will result in a 900 px wide ZoomPane image
+            // if the trigger is displayed at 300 px wide)
+            zoomFactor: 1.5,
+          }); 
+         })
+
+      </script>
 </body>
 
 <!-- Footer -->
