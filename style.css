@@ -225,6 +225,10 @@ footer {
 }
 
 /* pagina de cada cliente */
+li {
+    list-style: none;
+}
+
 .img-box {
     width: 90%;
     margin: 50px auto 20px;
